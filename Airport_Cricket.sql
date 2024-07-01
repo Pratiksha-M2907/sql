@@ -69,8 +69,8 @@ Insert into Teams Values(17, 'Australia National Team', 'Australia', 'Justin Lan
 Insert into Teams Values(18, 'India National Team', 'India', 'Ravi Shastri', 'Virat Kohli');
 Insert into Teams Values(19, 'New Zealand National Team', 'New Zealand', 'Gary Stead', 'Kane Williamson');
 Insert into Teams Values(20, 'South Africa National Team', 'South Africa', 'Mark Boucher', 'Temba Bavuma'); 
- SELECT * FROM Teams;
-  SELECT * FROM Teams where TeamId>=15;
-   SELECT * FROM Teams where Country like'I%';
-   SELECT * FROM Teams where Captain='Virat Kohli';
+SELECT * FROM Teams;
+SELECT * FROM Teams where TeamId>=15;
+SELECT * FROM Teams where Country like'I%';
+SELECT * FROM Teams where Captain='Virat Kohli';
  
