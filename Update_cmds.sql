@@ -1,0 +1,13 @@
+USE airport_details;
+SELECT * FROM airport;
+delete from airport where Airportid=18 and Name='Denver International Airport';
+use airport_details;
+update airport set Country='INDIA' where Country='India' ;
+update airport set Country='UAE' where Country='United Arab Emirates' ;
+use Cricket_teams;
+SELECT * FROM teams;
+update teams set Country='INDIA' where Country='India' ;
+update teams set Captain='MSD' where Captain='MS Dhoni' ;
+update teams set TeamName='RCB' where TeamName='Royal Challengers Bangalore' ;
+update teams set TeamName='CSK' where TeamName='Chennai Super Kings' ;
+delete from teams where Country='England';
